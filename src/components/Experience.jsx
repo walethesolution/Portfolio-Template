@@ -15,7 +15,7 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
-      background: "#eaeaec",
+      background: "#d6f1d9",
       color: "#292929",
       boxShadow:
         "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
@@ -59,10 +59,14 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
+        <p
+          className={`${styles.sectionSubText} sm:pl-16 pl-[2rem] text-[#66859b]`}
+        >
           What I&apos;ve done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
+        <h2
+          className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem] text-[#003459]`}
+        >
           Work Experience.
         </h2>
       </motion.div>
@@ -74,7 +78,7 @@ const Experience = () => {
           ))}
           <VerticalTimelineElement
             contentStyle={{
-              background: "#eaeaec",
+              background: "#d6f1d9",
               color: "#292929",
               boxShadow:
                 "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
@@ -85,7 +89,7 @@ const Experience = () => {
             contentArrowStyle={{
               borderRight: "7px solid  #232631",
             }}
-            iconStyle={{ background: "#333333" }}
+            iconStyle={{ background: "#003459" }}
             icon={
               <div className="flex justify-center items-center w-full h-full">
                 <img
@@ -101,8 +105,8 @@ const Experience = () => {
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
               whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
+              w-[125px] h-[46px] rounded-[10px] bg-[#3b463c] 
+              sm:mt-[22px] mt-[16px] hover:bg-[#b0d4b4] 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
               onClick={() =>

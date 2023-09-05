@@ -4,7 +4,7 @@ import { styles } from "../styles";
 const Hero = () => {
   return (
     <>
-      <section className="relative flex sm:flex-row flex-col w-full h-screen mx-auto">
+      <section className="relative flex sm:flex-row flex-col w-full h-screen mx-auto bg-[#003459]">
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
@@ -17,22 +17,22 @@ const Hero = () => {
           </div>
 
           <div
-            className="w-screen flex flex-col items-start transform translate-y-8
+            className="w-screen flex flex-col items-start gap-4 transform translate-y-8
             justify-center sm:-ml-[3rem] xxs:mt-4 xs:transform"
           >
-            <h1
-              className={`${styles.heroHeadText} text-battleGray font-poppins`}
+            <p
+              className={`${styles.heroHeadText} text-[#b3c2cd] font-poppins opacity-30`}
             >
-              Hi, I am <br />
-              <span
-                className="text-white sm:text-[90px] 
+              Hi, I am
+            </p>
+            <h1
+              className="text-[#c4ebc8] sm:text-[90px] 
                  text-[50px] font-mova
                 font-extrabold uppercase"
-              >
-                Olawale Ayejuyone
-              </span>
+            >
+              Olawale Ayejuyone
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-white text-xl`}>
+            <p className={`${styles.heroSubText} mt-2 text-[#e7f7e9] text-xl`}>
               Software Engineer / Web developer
               <br />
             </p>

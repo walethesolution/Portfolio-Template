@@ -109,7 +109,7 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "Diversity Cyber Council",
     icon: dcc,
-    iconBg: "#333333",
+    iconBg: "#003459",
     date: "Sep 2022 - Present",
   },
 ];

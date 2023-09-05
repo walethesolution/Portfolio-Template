@@ -23,8 +23,9 @@ const Navbar = () => {
           }}
         >
           <div className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] ml-[0.6rem] flex flex-col items-center justify-center">
-            <p className="text-eerieBlack font-semibold">WaleTheSolution</p>
-            <p className="text-eerieBlack">Code & Life </p>
+            <p className="bg-gradient-to-r from-[#003459] via-[#9dbca0] to-[#c4ebc8] bg-clip-text text-transparent font-mova font-semibold text-base md:text-2xl">
+              WaleTheSolution
+            </p>
           </div>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
@@ -32,7 +33,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-french" : "text-eerieBlack"
+                active === nav.title ? "text-french" : "text-[#003459]"
               } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}
