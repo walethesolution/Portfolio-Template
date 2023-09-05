@@ -1,15 +1,18 @@
-import React, { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable no-unused-vars */
+import React, { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
 import {
   Decal,
   Float,
   OrbitControls,
   Preload,
   useTexture,
-} from '@react-three/drei';
-import Loader from '../Loader';
+} from "@react-three/drei";
+import Loader from "../Loader";
 
 const Ball = (props) => {
+  // eslint-disable-next-line react/prop-types
   const [decal] = useTexture([props.imgUrl]);
 
   return (
@@ -35,6 +38,7 @@ const Ball = (props) => {
   );
 };
 
+// eslint-disable-next-line react/prop-types
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
