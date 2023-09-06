@@ -120,6 +120,9 @@ const Projects = () => {
         <h2 className={`${styles.sectionHeadTextLight} text-[#c4ebc8]`}>
           Projects.
         </h2>
+        <p className={`${styles.sectionSubText} text-[#e7f7e9]`}>
+          Solving real-life issues one project at a time.
+        </p>
       </motion.div>
 
       <div className="w-full flex">
