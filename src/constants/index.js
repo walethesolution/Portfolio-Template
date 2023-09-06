@@ -119,21 +119,7 @@ const projects = [
     id: "project-1",
     name: "Kings League",
     description:
-      "The official website for the local community's basketball league",
-    tags: [
-      {
-        name: "NextJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
+      "The official website for the local community's basketball league in East NY, Brooklyn",
     image: klHome,
     repo: "https://github.com/walethesolution/ball-league",
     live: "https://kings-league-theta.vercel.app/",
