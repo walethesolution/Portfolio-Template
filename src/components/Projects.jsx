@@ -121,7 +121,7 @@ const Projects = () => {
           Projects.
         </h2>
         <p className={`${styles.sectionSubText} text-[#e7f7e9]`}>
-          Solving real-life issues one project at a time.
+          Tackling real-life problems one solution at a time.
         </p>
       </motion.div>
 
