@@ -21,7 +21,7 @@ const Hero = () => {
             justify-center sm:-ml-[3rem] xxs:mt-4 xs:transform"
           >
             <p
-              className={`${styles.heroHeadText} text-[#b3c2cd] font-poppins opacity-30`}
+              className={`${styles.heroHeadText} text-[#c4ebc8] font-poppins opacity-70`}
             >
               Hi, I am
             </p>

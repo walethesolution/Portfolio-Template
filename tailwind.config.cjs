@@ -51,7 +51,7 @@ export default {
         hero: "linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)",
         "hero-mobile":
           "linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)",
-        tech: "linear-gradient(165deg, #66859b 100%, rgba(109,109,116,0.8) 100%)",
+        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/computer.jpg')",
       },
       fontFamily: {
         arenq: ["Arenq"],
