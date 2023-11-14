@@ -33,7 +33,7 @@ const Hero = () => {
               Olawale Ayejuyone
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-[#e7f7e9] text-xl`}>
-              Software Engineer / Web developer
+              Software developer / Web developer
               <br />
             </p>
           </div>

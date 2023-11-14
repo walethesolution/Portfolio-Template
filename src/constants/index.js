@@ -17,6 +17,7 @@ import {
   graphql,
   dcc,
   klHome,
+  spotlight
 } from "../assets";
 
 export const navLinks = [
@@ -112,6 +113,13 @@ const experiences = [
     iconBg: "#003459",
     date: "Sep 2022 - Present",
   },
+  {
+    title: "Freelance Web Developer",
+    company_name: "Wale Solutions",
+    icon: "",
+    iconBg: "#003459",
+    date: "Sep 2019 - Present",
+  },
 ];
 
 const projects = [
@@ -124,6 +132,14 @@ const projects = [
     repo: "https://github.com/walethesolution/ball-league",
     live: "https://kings-league-theta.vercel.app/",
   },
+  {
+    id: "project-2",
+    name: "Spotlight Beta",
+    description: "This is the beta version of spotlight app, this aim of this app is to connect Non profit orgarnizations to community members in need of their services",
+    image: spotlight,
+    repo: "Confidential",
+    live: "https://spotlight-beta.vercel.app/"
+  }
 ];
 
 export { services, technologies, experiences, projects };

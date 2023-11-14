@@ -29,9 +29,8 @@ import graphql from "./tech/graphql.png";
 import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
 import dcc from "./company/dcc.png";
-import kelhel from "./company/kelhel.png";
-import microverse from "./company/microverse.png";
-import klHome from "../assets/backgrounds/kl-home.png";
+import spotlight from "./backgrounds/dcc.png"
+import klHome from "./backgrounds/kl-home.png"
 
 export {
   computer,
@@ -65,6 +64,5 @@ export {
   typescript,
   klHome,
   dcc,
-  kelhel,
-  microverse,
+  spotlight
 };

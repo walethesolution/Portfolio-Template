@@ -46,17 +46,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        A problem-solver with a deep love for crafting elegant and efficient
-        solutions with lines of codes. A team player that thrives in a
-        collaborative environment but also autonomous and can deliver a product
-        from ideation to production.
+        Experienced Web Developer with a proven track record of five years in the industry. Proficient in both front-end and back-end technologies, specializing in HTML, CSS, JavaScript, and popular frameworks like React. Adept at creating responsive and performant web applications, with a strong foundation in database management and API integration. Skilled in version control, testing, and deployment, emphasizing security best practices. Well-versed in collaborating with cross-functional teams and contributing to all phases of the development lifecycle. Committed to continuous learning and staying abreast of emerging trends. Bring a combination of technical expertise, problem-solving skills, and effective communication to drive successful web development projects
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        My software development journey began with a fascination for tuning
-        lines of code into powerful tools that can change how we live and work.
+        My software development journey began with a fascination for how
+        lines of code turn into powerful tools that can change how we live and work.
         Over the years I have specialized in full stack development and
         contributed to numerous projects that have made meaningful impact.
         <br />
@@ -66,8 +63,7 @@ const About = () => {
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
         What keeps me motivated is the ever-evolving nature of technology and
-        the boundless possibilities it offers. I&apos;m driven by the challenge
-        of solving complex problems through code and creating user-friendly
+        the boundless possibilities it offers. I&apos;m driven by the bringing to life of a vision through lines of code and creating user-friendly
         applications that make a real difference in people&apos;s lives.
       </motion.p>
 
