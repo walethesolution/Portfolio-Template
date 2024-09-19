@@ -18,6 +18,8 @@ import {
   dcc,
   klHome,
   spotlight,
+  tf16,
+  orgPickup,
 } from "../assets";
 
 export const navLinks = [
@@ -133,8 +135,7 @@ const projects = [
   {
     id: "project-1",
     name: "Kings League",
-    description:
-      "The official website for the local community's basketball league in East NY, Brooklyn",
+    description: "The official website for a community's basketball league",
     image: klHome,
     repo: "https://github.com/walethesolution/ball-league",
     live: "https://kings-league-theta.vercel.app/",
@@ -147,6 +148,22 @@ const projects = [
     image: spotlight,
     repo: "Confidential",
     live: "https://spotlight-beta.vercel.app/",
+  },
+  {
+    id: "project-3",
+    name: "Tough-16",
+    description: "The official website for a Gaming Franchise",
+    image: tf16,
+    repo: "https://github.com/walethesolution/tough-16",
+    live: "https://tough16.com",
+  },
+  {
+    id: "project-4",
+    name: "Orgarnized-Pickup",
+    description: "The official website for a Soccer Pickup",
+    image: orgPickup,
+    repo: "https://github.com/walethesolution/orgarnized-pickup",
+    live: "https://orgarnized-pickup.vercel.app/",
   },
 ];
 

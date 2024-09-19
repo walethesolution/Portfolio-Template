@@ -29,8 +29,10 @@ import graphql from "./tech/graphql.png";
 import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
 import dcc from "./company/dcc.png";
-import spotlight from "./backgrounds/dcc.png"
-import klHome from "./backgrounds/kl-home.png"
+import spotlight from "./backgrounds/dcc.png";
+import klHome from "./backgrounds/kl-home.png";
+import tf16 from "./backgrounds/tf16.png";
+import orgPickup from "./backgrounds/org-pickup.png";
 
 export {
   computer,
@@ -64,5 +66,7 @@ export {
   typescript,
   klHome,
   dcc,
-  spotlight
+  spotlight,
+  tf16,
+  orgPickup,
 };
