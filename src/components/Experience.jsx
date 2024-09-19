@@ -39,16 +39,14 @@ const ExperienceCard = ({ experience }) => (
           className="w-[60%] h-[60%] object-contain"
         />
       </div>
-    }
-  >
+    }>
     <div>
       <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
         {experience.title}
       </h3>
       <p
         className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
-        style={{ margin: 0 }}
-      >
+        style={{ margin: 0 }}>
         {experience.company_name}
       </p>
     </div>
@@ -60,13 +58,11 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p
-          className={`${styles.sectionSubText} sm:pl-16 pl-[2rem] text-[#66859b]`}
-        >
+          className={`${styles.sectionSubText} sm:pl-16 pl-[2rem] text-[#66859b]`}>
           What I&apos;ve done so far
         </p>
         <h2
-          className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem] text-[#003459]`}
-        >
+          className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem] text-[#003459]`}>
           Work Experience.
         </h2>
       </motion.div>
@@ -98,8 +94,7 @@ const Experience = () => {
                   className="w-[45%] h-[45%] object-contain"
                 />
               </div>
-            }
-          >
+            }>
             <button
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
@@ -109,12 +104,14 @@ const Experience = () => {
               sm:mt-[22px] mt-[16px] hover:bg-[#b0d4b4] 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/1NnLst7hhcEicTCcv7CVpuSdNJ74qeump/view?usp=sharing",
-                  "_blank"
-                )
-              }
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "public/Olawale-Ayejuyone-WD.docx.pdf"; // Change this to the actual path
+                link.setAttribute("download", "Your_Name_Resume.pdf"); // Download attribute to specify the filename
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
               onMouseOver={() => {
                 document
                   .querySelector(".download-btn")
@@ -124,8 +121,7 @@ const Experience = () => {
                 document
                   .querySelector(".download-btn")
                   .setAttribute("src", download);
-              }}
-            >
+              }}>
               MY RESUME
               <img
                 src={download}
