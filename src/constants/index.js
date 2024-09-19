@@ -17,7 +17,7 @@ import {
   graphql,
   dcc,
   klHome,
-  spotlight
+  spotlight,
 } from "../assets";
 
 export const navLinks = [
@@ -107,15 +107,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Stem Specialist",
+    company_name: "New York Edge",
+    icon: "",
+    iconBg: "#003459",
+    date: "March 2024 - Present",
+  },
+  {
     title: "Full Stack Developer",
     company_name: "Diversity Cyber Council",
     icon: dcc,
     iconBg: "#003459",
-    date: "Sep 2022 - Present",
+    date: "Sep 2022 - Feb 2024",
   },
   {
     title: "Freelance Web Developer",
-    company_name: "Wale Solutions",
+    company_name: "WALE",
     icon: "",
     iconBg: "#003459",
     date: "Sep 2019 - Present",
@@ -135,11 +142,12 @@ const projects = [
   {
     id: "project-2",
     name: "Spotlight Beta",
-    description: "This is the beta version of spotlight app, this aim of this app is to connect Non profit orgarnizations to community members in need of their services",
+    description:
+      "This is the beta version of spotlight app, this aim of this app is to connect Non profit orgarnizations to community members in need of their services",
     image: spotlight,
     repo: "Confidential",
-    live: "https://spotlight-beta.vercel.app/"
-  }
+    live: "https://spotlight-beta.vercel.app/",
+  },
 ];
 
 export { services, technologies, experiences, projects };

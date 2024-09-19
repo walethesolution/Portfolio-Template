@@ -106,8 +106,8 @@ const Experience = () => {
               ease-in-out"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "public/Olawale-Ayejuyone-WD.docx.pdf"; // Change this to the actual path
-                link.setAttribute("download", "Your_Name_Resume.pdf"); // Download attribute to specify the filename
+                link.href = "public/Olawale-Ayejuyone-WD.docx.pdf";
+                link.setAttribute("download", "Olawale-Ayejuyone.pdf");
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
