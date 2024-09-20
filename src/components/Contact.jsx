@@ -28,7 +28,7 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_ykrr34a",
+        "service_k4ogthn",
         "template_q8xfqn9",
         {
           from_name: form.name,
@@ -61,12 +61,10 @@ const Contact = () => {
   return (
     <div
       className="-mt-[8rem] xl:flex-row flex-col-reverse 
-      flex gap-10 overflow-hidden"
-    >
+      flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-[#99aebd] p-8 rounded-2xl"
-      >
+        className="flex-[0.75] bg-[#99aebd] p-8 rounded-2xl">
         <p className={`${styles.sectionSubText} text-[#66859b]`}>
           Get in touch
         </p>
@@ -77,8 +75,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-10 flex flex-col gap-6 font-poppins"
-        >
+          className="mt-10 flex flex-col gap-6 font-poppins">
           <label className="flex flex-col">
             <span className="text-[#1a486a] font-medium mb-4">Your Name</span>
             <input
@@ -140,8 +137,7 @@ const Contact = () => {
             }}
             onMouseOut={() => {
               document.querySelector(".contact-btn").setAttribute("src", send);
-            }}
-          >
+            }}>
             {loading ? "Sending" : "Send"}
             <img
               src={send}
